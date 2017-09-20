@@ -5,6 +5,7 @@ def prime?(i)
   elsif i < 3
     return false
   elsif i = -i
+    return false
   else
     return true
   end
