@@ -2,7 +2,7 @@ def prime?(i)
   inf=1.0/0.0
   if i % inf == 0
     return false
-  elsif if i <= 1
+  elsif i <= 1
     return false
   else
     return true
