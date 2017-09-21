@@ -1,6 +1,5 @@
 def prime?(i)
-  inf=1.0/0.0
-  if i % inf == 0
+  if i % (2..i-1) == 0
     return false
   elsif i <= 1
     return false
